@@ -1,0 +1,187 @@
+.background-content
+{
+  background-color: rgb(116, 26, 107);
+  height: 100px;
+  width: 300px;
+  /* border: 2px solid red; */
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px;
+}
+.homelistmusic-container {
+  background-color: rgb(88, 26, 65);
+  height: 100vh;
+  width: 100%;
+  overflow-y: scroll;
+  color: aliceblue;
+}
+.homelistmusic-container::-webkit-scrollbar {
+  width: 5px;
+}
+.homelistmusic-container::-webkit-scrollbar-thumb {
+  background-color: rgb(134, 114, 138);
+  border-radius: 5px;
+}
+.homelistmusic-newrelease-title {
+  font-size: 40px;
+  padding-left: 40px;
+}
+.homelistmusic-newrelease-select
+{
+    display: flex;
+    padding-left: 20px;
+}
+.homelistmusic-ul-display
+{
+    display: none;
+}
+.homelistmusic-newrelease-select-buttion {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(65, 24, 62);
+  background-color: rgb(88, 26, 65);
+  font-size: 16px;
+  padding: 8px 30px;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+}
+.homelistmusic-newrelease-select-buttion:hover {
+    cursor: pointer;
+    background-color: rgb(63, 10, 55);
+    color: white;
+  }
+.homelistmusic-ul {
+  list-style: none;
+  /* padding-bottom: 8%; padding-top: 6%; */
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 10px 10px; */
+}
+.homelistmusic-newrelease-select-buttion-checked
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 10, 55);  
+    font-size: 16px;
+    padding: 8px 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.display-content
+{
+    display: none;
+}
+/* ----------------------------------------------------------------------------- */
+.thumail-container {
+  height: 100px;
+  width: 300px;
+  /* border: 2px solid red; */
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 5px;
+  /* margin-left: 10px */
+}
+.thumail-container:hover  
+{
+    cursor: pointer;
+    background-color: rgb(116, 26, 107);
+}
+.thumnail-img {
+  margin-left: 10px;
+  flex-grow: 2;
+  text-align: center;
+  justify-items: center;
+}
+.thumnail-img-anh {
+  max-width: 70px;
+  height: auto;
+}
+.thumnail-content {
+  flex-grow: 8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.thumnail-title {
+  height: 22px;
+  width: 200px;
+  overflow: hidden;
+  /* box-sizing: border-box; */
+}
+.thumnail-artistsNames {
+  /* box-sizing: border-box; */
+  padding-top: 12px;
+  font-size: 12px;
+  height: 20px;
+  width: 200px;
+  overflow: hidden;
+}
+
+/* list all music */
+
+.listall-container
+{
+  padding: 30px 30px;
+}
+.listall-navbar
+{
+  width: 100%;
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  align-items: center ;
+  font-size: 20px;
+}
+.listall-navbar > div:nth-child(1)
+{
+  flex-grow: 7;
+  margin-left: 40px;
+}
+.listall-navbar > div:nth-child(2)
+{
+  flex-grow: 2
+}
+.listall-navbar > div:nth-child(3)
+{
+  flex-grow: 1
+}
+.listall-ul
+{
+  list-style: none;   
+}
+
+.list-thumnail{
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  align-items: center ;
+}
+.list-thumnail > div:nth-child(1)
+{
+  flex-grow: 7;
+  margin-left: 40px;
+}
+.list-thumnail > div:nth-child(2)
+{
+  flex-grow: 2
+}
+.list-thumnail > div:nth-child(3)
+{
+  flex-grow: 1
+}

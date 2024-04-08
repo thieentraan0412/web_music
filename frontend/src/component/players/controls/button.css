@@ -1,0 +1,26 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+.btn-play {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 10px 15px;
+  border-color: transparent transparent transparent #ffffff;
+  cursor: pointer;
+}
+
+.btn-stop {
+  height: 20px;
+  width: 10px;
+  border-left: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
